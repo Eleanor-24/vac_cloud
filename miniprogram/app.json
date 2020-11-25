@@ -1,0 +1,62 @@
+{
+  "cloud":true,
+  "pages": [
+    
+    "pages/main/mian",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/test/test",
+    "pages/chooseTest/chooseTest",
+    "pages/calendar/calendar"
+    
+    
+  ],
+  "window": {
+    "backgroundColor": "#eae5c9",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#6cc6cb",
+    "color": "#000",
+    
+    
+   
+    
+    "list": [
+      {
+        "pagePath": "pages/main/mian",
+        "text": "首页",
+        "selectedIconPath": "images/main.png",
+        "iconPath": "images/main1.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "单词本",
+        "selectedIconPath":"images/book.png",
+        "iconPath":"images/book1.png"
+      },
+      {
+        "pagePath": "pages/chooseTest/chooseTest",
+        "text": "练习",
+        "selectedIconPath":"images/test.png",
+        "iconPath":"images/test1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    
+    "main-top":"components/mainTop/mainTop",
+    "main-main":"components/mainMain/mainMain",
+    "detail-card":"components/detailCard/detailCard",
+    "sentence":"components/sentence/sentence",
+    "detail-bottom":"components/detailBottom/detailBottom"
+  }
+  
+  
+}

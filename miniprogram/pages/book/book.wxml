@@ -1,0 +1,31 @@
+<!--pages/book/book.wxml-->
+<view> 
+  <!-- 导航   -->
+  <view class="swiper-tab">  
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0"         bindtap="swichNav">单词本</view>  
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1"         bindtap="swichNav">错词本</view>  
+  </view>
+  <!-- 内容 -->
+   <swiper class="swiper" current="{{currentTab}}" duration="200"                 bindchange="swiperChange">
+    <swiper-item>  
+      <view  wx:for="{{array}}" wx:key="*this" class="body">  
+      <navigator  url="../detail/detail?id={{item.id}}">
+        <button class="img" id="{{item._id}}"  catchtap="delItem" >
+          <image src="../../images/del.png" class="del"></image>
+        </button>
+          <text class='letter'>{{item.word}}</text>
+          <image src="../../images/jump.png" class="jump"></image>
+          <text class="mean"> {{item.definition}}</text>
+        </navigator>
+      </view>
+    </swiper-item>  
+    <!-- 错词本 -->
+    <swiper-item> 
+        <navigator class='li'>
+            <text class='letter'>hello</text>
+            
+        </navigator>
+      
+    </swiper-item>  
+  </swiper>  
+</view> 

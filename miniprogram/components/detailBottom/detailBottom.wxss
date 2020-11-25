@@ -1,0 +1,48 @@
+/* components/detailBottom/detailBottom.wxss */
+.foot{
+  height: 100%;
+  width: 100%;
+  padding:30rpx;
+  box-sizing: border-box;
+  display: flex;
+  
+  align-items: center;
+  
+  
+}
+.btnLast{
+  flex:1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #82C2AA;
+  color: #fff;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+
+}
+.btnAdd{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #82C2AA;
+  color: #fff;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.btnNext{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #82C2AA;
+  color: #fff;
+  border-radius: 10rpx;
+}

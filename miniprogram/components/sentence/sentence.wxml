@@ -1,0 +1,12 @@
+<!--components/sentence/sentence.wxml-->
+<view class="sentence-card">
+  <view class="item">
+    <view class="sen">{{sentence1}}</view>
+    <view class="trans">{{mean1}}</view>
+  </view>
+  <view class="item">
+    <view class="sen">{{sentence2}}</view>
+    <view class="trans">{{mean2}}</view>
+  </view>
+  
+</view>

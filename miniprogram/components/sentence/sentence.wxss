@@ -1,0 +1,27 @@
+/* components/sentence/sentence.wxss */
+.sentence-card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.item{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.sen{
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+}
+.trans{
+  font-size: 28rpx;
+  color: #333;
+}

@@ -1,0 +1,11 @@
+<!--components/detailCard/detailCard.wxml-->
+<view class="content">
+  <view class="word">{{word}}</view>
+  <view class="pronunciation">
+    <view class="icon" bindtap="clickIcon">
+      <image class="image" src="../../images/voice.png"></image>
+    </view>
+    <view class="symbol">{{pronun}}</view>
+  </view>
+  <view class="mean">{{definition}}</view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class='content'>
+    <detail-card style="height:100%;width:100%;" word="{{word}}" pronun="{{pronun}}" definition="{{definition}}"></detail-card> 
+  </view>
+  <view class='sentence'>
+    <sentence style="height:100%;width:100%;" sentence1="{{sentence1}}" sentence2="{{sentence2}}" mean1="{{mean1}}" mean2="{{mean2}}"></sentence>
+   
+  </view>
+  <view class='bottom'>
+    <detail-bottom style="height:100%;width:100%;" bind:clickNext="clickNext" bind:clickLast="clickLast" bind:clickAdd="clickAdd"></detail-bottom>
+   
+  </view>
+</view>
+
+
+
+

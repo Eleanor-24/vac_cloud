@@ -1,0 +1,6 @@
+<!--pages/chooseTest/chooseTest.wxml-->
+<view class="containor">
+  <view class="choice" id="strengthen" bindtap="choiceClick">巩固练习</view>
+  <view class="choice" id="random" bindtap="choiceClick">随机练习</view>
+  <view class="choice" id="wrong" bindtap="choiceClick">错题巩固</view>
+</view>

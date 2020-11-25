@@ -1,0 +1,61 @@
+/* components/mainMain/mainMain.wxss */
+.main{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  height: 600rpx;
+  width:650rpx;
+  margin: 50rpx auto 0 auto;
+  border-radius: 15rpx;
+  box-shadow: 0 0 5rpx #e0e0e0;
+  background-color: transparent;
+  border: 1rpx solid #e0e0e0;
+  
+
+}
+.bg{
+  height: 600rpx;
+  width: 650rpx;
+  position: absolute;
+ 
+  z-index: -1;
+  opacity: 0.5;
+  
+}
+.m-top{
+  flex: 2;
+  font-size: 24rpx;
+  margin: 20rpx;
+}
+progress{
+  margin-top: 20rpx;
+}
+.m-center{
+  display: flex;
+  flex: 3;
+}
+.main .item{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32rpx;
+}
+.main .title{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.jump{
+  flex: 1;
+  height: 82rpx;
+  /* background-color: #FFD656; */
+  padding: 0;
+  margin: 0;
+  border:none;
+  border-radius: 0 0 15rpx 15rpx;
+  background-color: #1DD2C1;
+  line-height: 82rpx;
+  text-align: center;
+  font-size: 32rpx;
+
+}

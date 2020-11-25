@@ -1,0 +1,22 @@
+<!--components/mainTop/mainTop.wxml-->
+<view class="main-top">
+    <view class="top-items">
+         <button class="btn" bindgetuserinfo="bindGetUserInfo" open-type="getUserInfo">
+            <view class="arvatar">
+                <image src="{{avatarUrl}}"></image>
+            </view>
+       
+    </button>
+     <view class="nickname">{{nickname}}</view>
+    </view>
+   
+    <view class="top-items">
+        <view class="title">词汇量</view>
+        <view class="value">{{totalVal}}</view>
+    </view>
+    <view class="top-items">|</view>
+    <view class="top-items">
+        <view class="title">打卡天数</view>
+        <view class="value">0</view>
+    </view>
+</view>

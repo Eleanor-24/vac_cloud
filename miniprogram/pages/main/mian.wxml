@@ -1,0 +1,23 @@
+<!--pages/main/mian.wxml-->
+<view class='containor' >
+  <view class="top">
+    <main-top  style="width:100%;height:100%;" id="mainTop"></main-top>
+  </view>
+  <view class="main">
+    <main-main style="height:100%;width:100%;" id="mainData" bindjumpTo="jumpTo"></main-main>
+  </view>
+  
+  <!-- 日历 -->
+  <view class="bottom">
+     <view class="calendar" bindtap="turnToCal">
+        <image src="../../images/calendar.png" class="cal-icon">
+     </image>
+  </view>
+ 
+
+</view>
+</view>
+
+
+
+

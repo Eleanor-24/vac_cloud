@@ -1,0 +1,85 @@
+/* pages/test/test.wxss */
+/* pages/test/test.wxss */
+page{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  height: 140rpx;
+  width: 100%;
+  border-top: 1rpx solid #e0e0e0;
+  background-color: #fff;
+}
+.top .t-left{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.top .t-right{
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+  width: 120rpx;
+  height: 60rpx;
+  background-color: #6CC6CB;
+  
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.t-left .line{
+  height: 100rpx;
+  width: 20rpx;
+  background-color: #6CC6CB;
+  float: left;
+}
+.t-left .title{
+  float: right;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  
+}
+.bottom{
+  width: 100%-80rpx;
+  flex: 1;
+  padding: 40rpx;
+}
+.body{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: 1rpx solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+.body .b-top{
+  height: 240rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #e0e0e0;
+  background-color: #6CC6CB;
+  display: flex;
+  justify-content: center;
+}
+.b-top .words{
+  font-size: 64rpx;
+  line-height: 250rpx;  
+}
+.b-bottom{
+  margin-top: 100rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.choice{
+  display: flex;
+  justify-content: center;
+  width: 560rpx;
+  height: 80rpx;
+  border: 1rpx solid #e0e0e0;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  font-size: 26rpx;
+  line-height: 80rpx;
+}

@@ -1,0 +1,24 @@
+<view class="main">
+  <image class="bg" src="../../images/bg.png"></image>
+    <view class='m-top'>
+      <text>剩余单词：</text>
+      <text>{{rest}}</text>
+      <progress percent='{{pro}}' color="#6cc6cb"></progress>
+    </view>
+    <view class='m-center'>
+      <view class='item'>
+        <text>20</text>
+        <text class='title'>今日剩余</text>
+      </view>
+      <view class='item'>
+        <text>{{studied}}</text>
+        <text class='title'>本书已学</text>
+      </view>
+      <view class='item'>
+        <text>0</text>
+        <text class='title'>剩余天数</text>
+      </view>
+    </view>
+    
+    <button bindtap="jumpTo" class="jump">开始学习</button>
+</view> 

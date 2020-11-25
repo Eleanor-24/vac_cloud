@@ -1,0 +1,24 @@
+<!--pages/test/test.wxml-->
+<view class="top">
+  <view class="t-left">
+    <view class="line"></view>
+    <view class="title">单选题</view>
+  </view>
+  <view class="t-right">
+    <view class="sure" bindtap="nextHandler">下一题</view>
+  </view>
+</view>
+<view class="bottom">
+  <view class="body">
+  <view class="b-top">
+    <view class="words">{{word}}</view>
+  </view>
+  <view class="b-bottom">
+    <view class="choice" bindtap="choiceClick" style="border-color:{{color1}}" id="choice1">{{definition1}}</view>
+    <view class="choice" bindtap="choiceClick" style="border-color:{{color2}}" id="choice2">{{definition2}}</view>
+    <view class="choice" bindtap="choiceClick" style="border-color:{{color3}}" id="choice3">{{definition3}}</view>
+    <view class="choice" bindtap="choiceClick" style="border-color:{{color4}}" id="choice4">{{definition4}}</view>
+  </view>
+</view>
+</view>
+

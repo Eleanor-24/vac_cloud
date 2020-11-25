@@ -1,0 +1,6 @@
+<!--components/detailBottom/detailBottom.wxml-->
+<view class="foot">
+  <view class="btnLast" bindtap="clickLast">上一个</view>
+  <view class="btnAdd" bindtap="clickAdd">收藏</view>
+  <view class="btnNext" bindtap="clickNext">下一个</view>
+</view>
